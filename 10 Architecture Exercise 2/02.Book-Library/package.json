@@ -1,0 +1,19 @@
+{
+  "name": "02.Book-Library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.27.1"
+  }
+}

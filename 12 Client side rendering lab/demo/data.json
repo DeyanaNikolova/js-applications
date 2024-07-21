@@ -1,0 +1,17 @@
+[
+    {
+        "title": "First Article",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "author": "John Smith"
+    },
+    {
+        "title": "Second Article",
+        "content": "Officia sequi exercitationem dicta recusandae illo inventore eaque corrupti, amet libero, et, deleniti vero nostrum.",
+        "author": "Peter Johnson"
+    },
+    {
+        "title": "Thirs Article",
+        "content": "Consectetur, voluptatibus iure odio laborum praesentium aspernatur!",
+        "author": "Marie Curie"
+    }
+]

@@ -1,0 +1,11 @@
+1. Extract and examine project files 
+2.Setup NPM project (package.json + libraries)    npm install...
+3. Analyse HTML and determine template structure
+4. Create application entry module - app.js
+5. Setup routing annd create view placeholders
+6. Implement request functions  (api.js + util.js)
+7. Implement views
+7.1. Create static templates
+7.2. Implement requests
+7.3. Populate templates with remote data
+7.4. Add event listeners (if any)

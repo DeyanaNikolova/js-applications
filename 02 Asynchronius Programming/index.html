@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book collection</title>
+</head>
+<body>
+    <h1>My Books</h1>
+    <button id="load-books">Load</button>
+    <ul id="book-list">
+
+    </ul>
+    <script>
+        const baseUrl = 'http://localhost:3030/jsonstore';
+        const buttonEl = document.getElementById('load-books');
+        const bookListEl = document.getElementById('book-list');
+        buttonEl.addEventListener('click', ()=>{
+        
+            fetch(`${baseUrl}/collections`)
+            .then(res => res.json())
+            .then(data =>{
+                let books = Object.keys(data);
+                books.forEach(b =>{
+                    let liEl = document.createElement('li');
+                    liEl.textContent = b;
+                    bookListEl.appendChild(liEl);
+                })
+            })
+            .catch(err => console.log(err))
+        })
+    </script>
+</body>
+</html>
